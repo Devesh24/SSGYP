@@ -52,6 +52,128 @@
     font-family: 'Kiwi Maru', serif;   
     margin: auto;
 }
+.box{
+    /* border: 1px solid black;
+    background-color: rgb(27, 219, 203); */
+    height: 250px;
+    padding: 20px;
+    margin: 20px;
+}
+
+h2{
+    background-color: rgb(60, 228, 214);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Kiwi Maru', serif;   
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.navlist {
+    margin: 20px 100px;
+    width: 92vw;
+    /* border: 1px solid black; */
+    /* min-height: auto; */
+  }
+  
+  .navlist ul {
+    position: relative;
+    padding-top: 20px; 
+  }
+  
+  .navlist li {
+    position: relative;
+    padding: 20px ; 
+    float: left; 
+    text-align: center;
+    list-style-type: none; 
+  }
+  
+  /* code for the middle line */
+  .navlist li::before, .navlist li::after{
+    content: '';
+    position: absolute; 
+    top: 0; 
+    right: 50%;
+    width: 50%; 
+    height: 20px;
+    border-top: 1px solid black;
+  }
+  
+  /* code for the lines of division from the middle line */
+  .navlist li::after{
+    left: 50%;
+    right: auto; 
+    border-left: 1px solid black;
+}
+
+.navlist li:last-child::before{
+  border-right: 1px solid black;
+  border-radius: 0 5px 0 0;
+}
+  
+  .navlist li:only-child::after, .navlist li:only-child::before {
+    content: '';
+    display: none;
+  }
+  
+  .navlist li:only-child{ padding-top: 0;}
+  .navlist li:first-child::before, .navlist li:last-child::after{
+    border: 0 none;
+  }
+  
+  .navlist li:first-child::after{
+      border-radius: 5px 0 0 0;
+  }
+
+  /* code for the line above the middle line */
+  .navlist ul ul::before{
+    content: '';
+    position: absolute; top: 0; left: 50%;
+    border-left: 1px solid black;
+    width: 0; 
+    height: 20px;
+  }
+  
+  /* code for different boxes */
+  .navlist li a{
+    display: inline-block;
+    padding: 5px 10px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: #ec5151;
+    
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(241, 231, 231);
+    font-family: 'Kiwi Maru', serif;   
+    font-size: 21px;
+  }
+  
+  .navlist li a:hover{
+    color: black;
+    background: #c8e4f8;   
+    border: 1px solid #94a0b4;
+  }
+  .root:hover{color: aliceblue!important;
+    background-color: #ec5151 !important;}
+  .footer{ overflow: hidden;
+    background-color: #ec5151;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px ;
+    display:flex;
+    justify-content: space-between;
+    padding: 25px 20px;
+  
+  }
+  .copy{color: aliceblue;
+    padding-bottom: 100px;
+  }
+  
+  
     </style>
 </head>
 <body>
@@ -104,6 +226,35 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
+      </div>
+      <div class="box">
+        <h2>Types of Schemes offered by the Government</h2>
+        <div class="navlist">
+          <ul>
+            <li>
+              <a class="root">Types of Schemes</a>
+              <ul>
+                <li>
+                  <a href="#">Educational Schemes</a>
+                </li>
+                <li>
+                  <a href="#">Agricultural Schemes</a>
+                </li>
+                <li>
+                  <a href="#">Devlopment Schemes</a>
+                </li>
+                <li>
+                  <a href="#">Medical Schemes</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="container footer">
+        <span class="copy">TOll Free:123456789</span>
+        <span class="copy">2022@copyright</span>
+        <span class="copy">ssgy@gmailcom</span>
       </div>
 
 <script src="./SSyg.js"></script>
