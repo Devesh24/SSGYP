@@ -67,17 +67,22 @@ h4{
     list-style-position: inside;
 }
 
-#display1{
-    display: none;
+.diffscheme ol li {
+  list-style-type: lower-latin;
+  list-style-position: inside;
 }
 
-#btn{
-    padding: 6px;
-    border: 1px solid black;
-    border-radius: 3px;
-    background-color: rgb(195, 218, 193);
+.display {
+  display: none;
 }
 
-#btn:hover{
-    background-color: rgb(179, 162, 160);
+.btnRead {
+  padding: 6px;
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: rgb(195, 218, 193);
+}
+
+.btnRead:hover {
+  background-color: rgb(179, 162, 160);
 }
