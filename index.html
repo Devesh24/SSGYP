@@ -172,11 +172,32 @@ h2{
   .copy{color: aliceblue;
     padding-bottom: 100px;
   }
-  
-  
+  #register{
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  #register:hover{
+    color: blue;
+  }
+  .nav-item a{font-size: larger;}
+  #about{margin: 50px;
+    border-color: black;}
+   .aboutp{border-color: black;
+margin:auto}
+
+.containera{border: 2px solid black;
+  width: 1400px;
+    padding: 21px;
+    font-family: 'Kiwi Maru', serif;
+  font-size: larger;}
+
+  #typosh{width:1400px;
+  margin-left: 10px;}
     </style>
 </head>
 <body>
+  
   <div class="navhead" id="nav">
     <img  class="Gov" src="./Goverment of india logo.jpg" alt="" height="10px" />
     <p class="school">
@@ -185,26 +206,23 @@ h2{
     </p>
     <img class="Gov" src="./swach bharat.jpg" alt="" height="10px" />
   </div>
-</header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link " aria-current="page" href="#">Home</a>
+                <a class="nav-link " aria-current="page" href="./SSyg.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#about">About</a>
               </li>
             </ul>
           </div>
+          <a className="btn btn-primary mx-1" href="./Register.html" id="register" role="button" >Register</a>
         </div>
       </nav>
     </div>
+  
       <div id="carouselExampleControls" class="carousel slide;" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -227,24 +245,28 @@ h2{
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+      <h2 id="about">ABOUT</h2>
+      <div class="containera aboutp">
+        <p>SSGYP (Sarv Sanyukt Gramin Yojana Portal) is a portal where all the schemes of the government can be easily accessed by the people. There are several schemes provided by the government and SSGYP is the place where one can find the scheme in which he/she is eligible. </p>
+      </div>
       <div class="box">
-        <h2>Types of Schemes offered by the Government</h2>
+        <h2 id="typosh" >Types of Schemes offered by the Government</h2>
         <div class="navlist">
           <ul>
             <li>
               <a class="root">Types of Schemes</a>
               <ul>
                 <li>
-                  <a href="#">Educational Schemes</a>
+                  <a href="./educational.html">Educational Schemes</a>
                 </li>
                 <li>
-                  <a href="#">Agricultural Schemes</a>
+                  <a href="./Agricultural.html">Agricultural Schemes</a>
                 </li>
                 <li>
-                  <a href="#">Devlopment Schemes</a>
+                  <a href="./Financial.html">Financial Schemes</a>
                 </li>
                 <li>
-                  <a href="#">Medical Schemes</a>
+                  <a href="medical.html">Medical Schemes</a>
                 </li>
               </ul>
             </li>
@@ -252,7 +274,7 @@ h2{
         </div>
       </div>
       <div class="container footer">
-        <span class="copy">TOll Free:123456789</span>
+        <span class="copy">Toll Free:123456789</span>
         <span class="copy">2022@copyright</span>
         <span class="copy">ssgy@gmailcom</span>
       </div>
