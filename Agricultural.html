@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <title>Educational Schemes</title>
+    <link rel="stylesheet" href="./schemes.css" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+       .nav-item a{font-size: larger;}
+  
+  </style>
+
+  <body>
+    <header>
+      <div class="navhead" id="nav">
+        <img src="./Goverment of india logo.jpg" alt="" height="100px" />
+        <p class="school">
+          SARV SANYUKT GRAMIN YOJANA PORTAL <br />
+          सर्व संयुक्त ग्रामीण योजना पोर्टल
+        </p>
+        <img src="swach bharat.jpg" alt="" height="100px" />
+      </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="./SSyg.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./SSyg.html#about">About</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <h2>Agricultural Schemes</h2>
+
+    <div id="mmvy" class="diffscheme">
+        <h4>Mukhyamantri Medhavi Vidyarthi Yojana : </h4>
+        <p>Under this scheme, students who have secured 70 percent or more marks in the 12th examination conducted by the Board of Secondary Education or have secured 85 percent or more marks in the 12th board examination conducted by CBSE / ICSE and are residents of Madhya Pradesh. Along with this, if the annual income of their father/guardian is less than Rs.6 lakh, the tuition fee will be borne by the state government under the Mukhyamantri Medhavi Vidyarthi Yojana for such students to get admission in the following undergraduate level education courses. Under the scheme, in the form of expenditure fee for graduation, admission fee and the actual fee (excluding mess fee and caution money) which has been fixed by Fee Regulatory Committee or MP Private University Regulatory Commission or Government of India / State Government, Only payment will be made.
+            <span id="dots">....</span>
+            <div id="display1">
+                <ul> <li> If you are under rank 1,50,000 (one lakh fifty thousand) in JEE Mains exam for engineering, taking admission in government engineering college and taking admission in government engineering college and taking admission in grant/aided/ non-government engineering college, 1.50 lakh or actual Whichever is less in tuition fee.</li>
+                    <li> For medical studies, through NEET entrance examination, MBBS / BDS course of a medical / dental college of the central or state government or MBBS course of private medical located in Madhya Pradesh has been obtained. Candidates from Government of India Institutes in which admission to MBBS course is obtained on the basis of examination conducted by them, will also be eligible.</li>
+                    <li> Must have obtained admission in National Law Universities and Delhi University for the study of Law through Common Law Admission Tester (CLAT) or examination conducted by himself.</li>
+                    <li> On getting admission in the courses of graduation programs and integrated post graduate programs and dual degree courses (which includes bachelor's degree with master's degree) conducted in all the universities / institutes of the Government of India.</li>
+                    <li> On getting admission in all the courses run in all government and aided colleges/universities of the state government and diploma courses of polytechnic colleges (in which admission is obtained on the basis of 12th examination).</li>
+                </ul>
+            </div>
+            <button id="btn" onclick="readMore()">Read more</button>
+            </p>
+            <div><b> Link to the official website:</b> <a href="http://scholarshipportal.mp.nic.in/MedhaviChhatra/Medhavi_New/Default.aspx">http://scholarshipportal.mp.nic.in/MedhaviChhatra/Medhavi_New/Default.aspx</a></div>
+    </div>
+
+
+    <script>
+        function readMore(){
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("display1");
+            var btnText = document.getElementById("btn");
+
+            if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Read more"; 
+            moreText.style.display = "none";
+              } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Read less"; 
+                moreText.style.display = "inline";
+                }
+        }
+    </script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
