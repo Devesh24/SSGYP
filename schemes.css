@@ -50,6 +50,13 @@ h2{
     text-transform: uppercase;
 }
 
+.container {
+  margin: 0%;
+}
+#carouselExampleIndicators {
+  margin: 0%;
+}
+
 .diffscheme{
     font-family: 'Kiwi Maru', serif;  
     border: 1px solid black;
