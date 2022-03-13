@@ -51,41 +51,222 @@
       </nav>
     <h2>Agricultural Schemes</h2>
 
-    <div id="mmvy" class="diffscheme">
-        <h4>Mukhyamantri Medhavi Vidyarthi Yojana : </h4>
-        <p>Under this scheme, students who have secured 70 percent or more marks in the 12th examination conducted by the Board of Secondary Education or have secured 85 percent or more marks in the 12th board examination conducted by CBSE / ICSE and are residents of Madhya Pradesh. Along with this, if the annual income of their father/guardian is less than Rs.6 lakh, the tuition fee will be borne by the state government under the Mukhyamantri Medhavi Vidyarthi Yojana for such students to get admission in the following undergraduate level education courses. Under the scheme, in the form of expenditure fee for graduation, admission fee and the actual fee (excluding mess fee and caution money) which has been fixed by Fee Regulatory Committee or MP Private University Regulatory Commission or Government of India / State Government, Only payment will be made.
-            <span id="dots">....</span>
-            <div id="display1">
-                <ul> <li> If you are under rank 1,50,000 (one lakh fifty thousand) in JEE Mains exam for engineering, taking admission in government engineering college and taking admission in government engineering college and taking admission in grant/aided/ non-government engineering college, 1.50 lakh or actual Whichever is less in tuition fee.</li>
-                    <li> For medical studies, through NEET entrance examination, MBBS / BDS course of a medical / dental college of the central or state government or MBBS course of private medical located in Madhya Pradesh has been obtained. Candidates from Government of India Institutes in which admission to MBBS course is obtained on the basis of examination conducted by them, will also be eligible.</li>
-                    <li> Must have obtained admission in National Law Universities and Delhi University for the study of Law through Common Law Admission Tester (CLAT) or examination conducted by himself.</li>
-                    <li> On getting admission in the courses of graduation programs and integrated post graduate programs and dual degree courses (which includes bachelor's degree with master's degree) conducted in all the universities / institutes of the Government of India.</li>
-                    <li> On getting admission in all the courses run in all government and aided colleges/universities of the state government and diploma courses of polytechnic colleges (in which admission is obtained on the basis of 12th examination).</li>
-                </ul>
-            </div>
-            <button id="btn" onclick="readMore()">Read more</button>
-            </p>
-            <div><b> Link to the official website:</b> <a href="http://scholarshipportal.mp.nic.in/MedhaviChhatra/Medhavi_New/Default.aspx">http://scholarshipportal.mp.nic.in/MedhaviChhatra/Medhavi_New/Default.aspx</a></div>
+    
+    <div class="container">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        style="width: 97vw"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active" style="height: 500px">
+            <img
+              class="w-100"
+              src="ag1.jpg"
+              height="500px"
+              alt="First slide"
+            />
+          </div>
+          <div class="carousel-item" style="height: 500px">
+            <img
+              class="w-100"
+              src="ag2.jpg"
+              height="500px"
+              alt="Second slide"
+            />
+          </div>
+          <div class="carousel-item" style="height: 500px">
+            <img
+              class="w-100"
+              src="ag3.jpg"
+              height="500px"
+              alt="Third slide"
+            />
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
     </div>
 
+    <hr />
 
-    <script>
-        function readMore(){
-            var dots = document.getElementById("dots");
-            var moreText = document.getElementById("display1");
-            var btnText = document.getElementById("btn");
 
-            if (dots.style.display === "none") {
-            dots.style.display = "inline";
-            btnText.innerHTML = "Read more"; 
-            moreText.style.display = "none";
-              } else {
-                dots.style.display = "none";
-                btnText.innerHTML = "Read less"; 
-                moreText.style.display = "inline";
-                }
-        }
-    </script>
+    <div id="enam" class="diffscheme">
+      <h4>National Agriculture Market : </h4>
+      <p>National Agriculture Market (eNAM) is a pan-India electronic trading portal which networks the existing APMC mandis to create a unified national market for agricultural commodities.
+        Small Farmers Agribusiness Consortium (SFAC) is the lead agency for implementing eNAM under the aegis of Ministry of Agriculture and Farmers' Welfare, Government of India.
+          <span id="dots">....</span>
+          <div id="display1" class="display">
+            Vision is to promote uniformity in agriculture marketing by streamlining of procedures across the integrated markets, removing information asymmetry between buyers and sellers and promoting real time price discovery based on actual demand and supply.
+Mission is integration of APMCs across the country through a common online market platform to facilitate pan-India trade in agriculture commodities, providing better price discovery through transparent auction process based on quality of produce along with timely online payment.
+
+          </div>
+          <button id="btn1" class="btnRead" onclick="readMore('display1', id)">Read more</button>
+      
+      </p>
+          <div><b> Link to the official website:</b> <a href="https://www.enam.gov.in/web/">https://www.enam.gov.in/web/</a></div>
+  </div>
+
+    <div id="nmsa" class="diffscheme">
+      <h4>National Mission For Sustainable Agriculture : </h4>
+      <p>National Mission for Sustainable Agriculture (NMSA) has been formulated for enhancing agricultural productivity especially in rainfed areas focusing on integrated farming, water use efficiency, soil health management and synergizing resource conservation.
+        NMSA will cater to key dimensions of 'Water use efficiency', 'Nutrient Management' and 'Livelihood diversification' through adoption of sustainable development pathway by progressively shifting to environmental friendly technologies, adoption of energy efficient equipments, conservation of natural resources, integrated farming, etc.
+        
+          <span id="dots">....</span>
+          <div id="display2" class="display">
+            <ul>
+            Schemes under NMSA: 
+<li>  Rainfed Area Development (RAD): RAD is being implemented by RFS Division</li>
+<li>  Soil Health Management (SHM): SHM is being implemented by INM Division</li>
+ <li> Sub Mission on Agro Forestry (SMAF): SMAF is being implemented by NRM Division </li>
+ <li> Paramparagat Krishi Vikas Yojana (PKVY): PKVY is being implemented by INM Division </li>
+ <li> Soil and Land Use Survey of India (SLUSI): Being implemented by RFS Division</li>
+ <li> National Rainfed Area Authority (NRAA): Being implemented by RFS Division</li>
+ <li> Mission Organic Value Chain Development in North Eastern Region (MOVCDNER): Being implemented by INM Division</li>
+ <li> National Centre of Organic Farming (NCOF): Being implemented by INM Division</li>
+ <li> Central Fertilizer Quality Control and Training Institute (CFQC&TI): implemented by INM Division</li>
+</ul>
+
+          </div>
+          <button id="btn2" class="btnRead" onclick="readMore('display2', id)">Read more</button>
+      
+      </p>
+          <div><b> Link to the official website:</b> <a href="https://nmsa.dac.gov.in/">https://nmsa.dac.gov.in/</a></div>
+  </div>
+
+  <div id="pmksy" class="diffscheme">
+    <h4>Pradhan Mantri Krishi Sinchai Yojana : </h4>
+    <p>"Prime Minister Krishi Sinchayee Yojana"
+      Government of India is committed to accord high priority to water conservation and its management. To this effect Pradhan Mantri Krishi Sinchayee Yojana (PMKSY) has been formulated with the vision of extending the coverage of irrigation 'Har Khet ko pani' and improving water use efficiency 'More crop per drop' in a focused manner with end to end solution on source creation, distribution, management, field application and extension activities.
+      Government of India is committed to accord high priority to water conservation and its management. To this effect Pradhan Mantri Krishi Sinchayee Yojana (PMKSY) has been formulated with the vision of extending the coverage of irrigation ‘Har Khet ko pani’ and improving water use efficiency ‘More crop per drop' in a focused manner with end to end solution on source creation, distribution, management, field application and extension activities. The Cabinet Committee on Economic Affairs chaired by Hon’ble Prime Minister has accorded approval of Pradhan Mantri Krishi Sinchayee Yojana (PMKSY) in its meeting held on 1st July, 2015.
+      
+        <span id="dots">....</span>
+        <div id="display3" class="display">
+          PMKSY has been formulated amalgamating ongoing schemes viz. Accelerated Irrigation Benefit Programme (AIBP) of the Ministry of Water Resources, River Development & Ganga Rejuvenation (MoWR,RD&GR), Integrated Watershed Management Programme (IWMP) of Department of Land Resources (DoLR) and the On Farm Water Management (OFWM) of Department of Agriculture and Cooperation (DAC). PMKSY has been approved for implementation across the country with an outlay of Rs. 50,000 crore in five years. For 2015-16, an outlay of Rs.5300 crore has been made which includes Rs. 1800 crore for DAC; Rs. 1500 crore for DoLR; Rs. 2000 crore for MoWR(Rs. 1000 crore for AIBP; Rs. 1000 crores for PMKSY).
+
+        </div>
+        <button id="btn3" class="btnRead" onclick="readMore('display3', id)">Read more</button>
+    
+    </p>
+        <div><b> Link to the official website:</b> <a href="https://pmksy.gov.in/">https://pmksy.gov.in/</a></div>
+</div>
+
+  <div id="pkvy" class="diffscheme">
+    <h4>Paramparagat Krishi Vikas Yojana : </h4>
+    <p>The Paramparagat Krishi Vikas Yojana (PKVY), an initiative to promote organic farming in the country, was launched by the NDA government in 2015.
+      According to the scheme, farmers will be encouraged to form groups or clusters and take to organic farming methods over large areas in the country.
+      The aim is to form 10,000 clusters over the next three years and bring about five lakh acres of agricultural area under organic farming. The government also intends to cover the certification costs and promote organic farming through the use of traditional resources.
+      To avail the scheme, each cluster or group must have 50 farmers willing to take up organic farming under the PKVY and possess a total area of at least 50 acres. Each farmer enrolling in the scheme will be provided INR 20,000 per acre by the government spread over three years time.
+      
+      
+        <span id="dots">....</span>
+        <div id="display4" class="display">
+          Paramparagat Krishi Vikas Yojna (PKVY)" a sub-component of Soil Health Management(SHM) scheme under National Mission of Sustainable Agriculture(NMSA) aims at development of sustainable models of organic farming through a mix of traditional wisdom and modern science to ensure long term soil fertility buildup, resource conservation and helps in climate change adapatation and mitigation. It primarily aims to increase soil fertility and thereby helps in production of healthy food through organic practices without the use of agro-chemicals. PKVY also aims at empowering farmers through institutional development through clusters approch not only in farm practice management,input production,quality assurance but also in value addition and direct marketing through innovative means. Participatory Gurantee System under PGS-India programme will be the key approach for quality assurances under the PKVY. The farmers will have option to adopt any form of organic farming in complince of PGS-India standards. While adopting a system it must be ensured that the system adopted is compatible to the area and crop and assures optimum yield and provides adequate measures to manage nutrients,pests and diseases.Farmers will have the flexibility to use appropriate package of practice(s) best suited to their situations.
+        </div>
+        <button id="btn4" class="btnRead" onclick="readMore('display4', id)">Read more</button>
+    
+    </p>
+        <div><b> Link to the official website:</b> <a href="https://pgsindia-ncof.gov.in/PKVY/Introduction.aspx">https://pgsindia-ncof.gov.in/PKVY/Introduction.aspx</a></div>
+</div>
+
+  <div id="pmfby" class="diffscheme">
+    <h4>Pradhan Mantri Fasal Bima Yojana : </h4>
+    <p>Pradhan Mantri Fasal Bima Yojana (PMFBY) is the government sponsored crop insurance scheme that integrates multiple stakeholders on a single platform.
+     <ol> Objectives:
+      <li> To provide insurance coverage and financial support to the farmers in the event of failure of any of the notified crop as a result of natural calamities, pests & diseases.</li>
+      <li> To stabilise the income of farmers to ensure their continuance in farming.</li>
+      <li> To encourage farmers to adopt innovative and modern agricultural practices.</li>
+      <li> To ensure flow of credit to the agriculture sector.</li>
+    </ol>
+    
+    </p>
+        <div><b> Link to the official website:</b> <a href="https://pmfby.gov.in/">https://pmfby.gov.in/</a></div>
+</div>
+
+<div id="lis" class="diffscheme">
+  <h4>Livestock Insurance Scheme : </h4>
+  <p>This scheme aims to provide protection mechanism to the farmers and cattle rearers against any eventual loss of their animals due to death and to demonstrate the benefit of the insurance of livestock to the people and popularize it with the ultimate goal of attaining qualitative improvement in livestock and their products.
+    Livestock Sector is an important sector of national, especially rural economy. The supplemental income derived from rearing of livestock is a great source of support to the farmers facing uncertainties of crop production, apart from providing sustenance to poor and landless farmers.
+    For promotion of the livestock sector, it has been felt that along with providing more effective steps for disease control and improvement of genetic quality of animals, a mechanism of assured protection to the farmers and cattle rearers needs to be devised against eventual losses of such animals. In this direction, the Government approved a new centrally sponsored scheme on Livestock Insurance which was implemented on pilot basis during the 10th Plan. From 2008-09 onwards, the scheme is being implemented as a regular scheme in the100 newly selected districts till the end of 11th Five Year Plan i.e. 2011-12.
+  
+  </p>
+      <div><b> Link to the official website:</b> <a href="https://dahd.nic.in/related-links/livestock-insurance">https://dahd.nic.in/related-links/livestock-insurance</a></div>
+</div>
+
+<div id="sfta" class="diffscheme">
+  <h4>Scheme on Fisheries Training and Extension : </h4>
+  <p>It was launched to provide training for fishery sector so as to assist in undertaking fisheries extension programmes effectively.
+    Scheme On Fisheries Training And Extension – The Scheme on Fishers Training an Extension for formed under the Department of Animal Husbandry, Dairying, and Fisheries. The government of India has initiated this scheme for the development of the fisherman by providing them the training opportunity and their welfare activities. The benefits will be done only for the fisherman. The scheme will provide the fishers extension programme effectively, they will improve the skills of the fisherman and give the assistance for setting up/ Upgradation of Fish Framers during the training session. As the training will be having the awareness of the fishing with continuing for museum, library, aquarium and also auditorium facilities etc. the fisherman can utilize all the benefits of the scheme and utilize them for the development.
+    
+    
+      <span id="dots">....</span>
+      <div id="display5" class="display">
+        <ul>
+          The Objectives of the Scheme: 
+<li> Some of the main objectives of the scheme is, the scheme will be providing the training facility to the fishing person. Also, it will assist them by undertaking fisheries extension programme effectively.</li>
+<li>The Scheme will be giving the assistance to the fisherfolk in upgrading their skills.</li>
+<li>	The enhanced training facilities and the assistance for setting the upgrade of the fish farmers training centers will give more boost to the farmers.</li>
+<li>	The fisheries training centers are available in all the states.</li>
+<li> 	Along with the assistance of fishing, they will also provide establishment of an awareness center comprising of the museum. They can have all the collectibles in the museum and get aware of the technology to be used.</li>
+<li> 	Also, the fishers will be having the access to the library to gain knowledge, aquarium and auditorium facilities and so on. This all are used for the individual development and get an upgrade.</li>
+<li> 	The scheme will be having all the required features for developing a fisherman.</li>
+<li> They will be developing the skill in the training program.</li>
+<li> The professionals available in the training are the officials of the government, they will guide everyone with the required information.</li>
+</ul>
+
+      </div>
+      <button id="btn5" class="btnRead" onclick="readMore('display5', id)">Read more</button>
+  
+  </p>
+      <div><b> Link to the official website:</b> <a href="https://sarkariniti.com/scheme-fisheries-training-extension/">https://sarkariniti.com/scheme-fisheries-training-extension/</a></div>
+</div>
+
+
+  <script>
+    function readMore(s,i){
+      var p=s;
+        var dots = document.getElementById("dots");
+        var moreText = document.getElementById(s);
+        var btnText = document.getElementById(i);
+
+        if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more"; 
+        moreText.style.display = "none";
+          } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Read less"; 
+            moreText.style.display = "inline";
+            }
+    }
+</script>
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
